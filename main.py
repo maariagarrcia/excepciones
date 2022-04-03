@@ -19,11 +19,11 @@ def test_email():
             
             print()
 
-
 #
 #   I N I C I O    P R O G R A M A
 #
 helpers.clear()  # Limpia la terminal
+mi_menu = Menu("EXCEPCIONES")
 
 mi_menu.addOption("Validar email con expresiones regulares", test_email)
 
